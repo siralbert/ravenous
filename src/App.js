@@ -19,6 +19,10 @@ const business = {
 const businesses = [business, business, business, business];
 
 class App extends React.Component{
+  SearchYelp(){
+    
+  }
+
   render(){
     return (
       <div className="App">
