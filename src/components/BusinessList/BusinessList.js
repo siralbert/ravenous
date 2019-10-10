@@ -11,7 +11,7 @@ class BusinessList extends React.Component {
                     // returns a list of Business objects based on array 
                     // from App 
                     this.props.businesses.map(business => {
-                        return <Business business={business} />;
+                        return <Business key={business.id} business={business} />;
                     })
                 }
             </div>
